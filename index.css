@@ -1,0 +1,116 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+
+    box-sizing: border-box;
+
+}
+:root{
+    --color: rgb(104, 29, 104);
+  }
+    #header-div{
+            display: inline-flex;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            padding: 30px 55px;
+            background-color: white;
+            font-size: 2em;
+            box-shadow: 3px 3px rgb(220, 217, 217);             
+    }
+
+
+    #he1{
+        color:black ;
+        text-shadow: 2px 2px 5px red;
+    }
+
+
+    #he2{
+        color: #00a5ec;
+        padding-left: 5px;
+        text-shadow: 2px 2px 5px orange;
+    }
+
+
+    #main-div{
+        display: grid;
+        background-color: #F7F7F7;
+    }
+
+    #bdiv{
+        
+            position: absolute;
+            right: 2%;
+            top: 20%; 
+
+    }
+
+    #b1:hover{
+        background-color:green;
+    }
+    #b1{
+        font-size: 2em;
+        height: 50px;
+        width: 50px;
+        border: none;
+        color: white;
+        border-radius:50%;
+        background-color: #00a5ec;
+        border: none;            
+    }
+
+    #ad{
+        height: 405.305039787798409vh;
+        border: none;
+        width: auto;
+        font-size: 2em;
+        display:inline;
+        background-color: white   ;
+    }
+
+
+    #box-div{
+        display: flex;
+        flex-wrap: wrap;
+        top:20%;
+        padding-top: 8em;
+        padding-right: 5em;
+        margin-left: 2em;
+
+
+    }
+    .box:hover{
+        transform: scale(1.1);
+}
+    .box{
+            height: auto;
+            width: auto;
+            border-radius: 5px;
+            background-color:white;
+            padding-left: 2em;
+            padding-right: 2em;
+            margin-right: 50px;
+            margin-bottom: 50PX;
+            border: 1px solid;
+            padding: 10px;
+            box-shadow: 0px 0px 10px 5px var(--color);
+            box-sizing: border-box;
+           
+            
+    }
+    .box h2{
+        color:#00a5ec;
+        padding-bottom: 1em;
+    }
+    .box h4{
+        color: rgb(101, 99, 99);
+        padding-left: 1em;
+    }
+    #edit{
+        margin-left: 6em;
+        margin-bottom: 1em;
+        padding-left:1em;
+        padding-right:1em;
+        background-color: aquamarine;
+    }
